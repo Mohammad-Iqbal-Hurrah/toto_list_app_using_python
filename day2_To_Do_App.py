@@ -82,6 +82,7 @@ def pedding():
     if len(all_tasks) == 0:
         print("No pending tasks found.")
     else:
+        print("Pending tasks are: ")
         counter = 1 
         for item in all_tasks:
             if item not in comp_list and item in all_tasks:
